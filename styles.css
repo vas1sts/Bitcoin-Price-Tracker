@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+form {
+    margin: 20px;
+}
+
+select {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.price-display {
+    margin: 20px;
+}
+
+.average-section {
+    margin: 20px;
+}
+
+#chart {
+    width: 80%;
+    margin: 0 auto;
+}

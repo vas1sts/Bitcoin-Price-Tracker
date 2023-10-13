@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Price Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bitcoin Price Tracker</h1>
+
+    <form id="currency-form">
+        <label for="currency-select">Select Currency:</label>
+        <select id="currency-select">
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+        </select>
+        <button type="button" id="fetch-price">Fetch Price</button>
+    </form>
+
+    <div class="price-display">
+        <h2>Current Bitcoin Price:</h2>
+        <p id="price-value">Loading...</p>
+    </div>
+
+    <div class="average-section">
+        <h2>Average Prices</h2>
+        <div id="average-5min">Average (5 Min):</div>
+        <div id="average-30min">Average (30 Min):</div>
+        <div id="average-60min">Average (60 Min):</div>
+    </div>
+
+    <div id="chart"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="app.js"></script>
+</body>
+</html>
