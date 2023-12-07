@@ -1,6 +1,24 @@
-# Bitcoin Project
+# Bitcoin Price Tracker Web Application
 
 This web application allows you to track the current Bitcoin price, view historical price data, and calculate average prices at different time intervals.
+
+## Getting Started
+
+These instructions will help you set up and run the Bitcoin Price Tracker on your local machine.
+
+### Prerequisites
+
+- A modern web browser
+- Internet connection
+- A code editor (optional)
+
+### Installation
+
+1. Clone the repository or download the source code to your local machine.
+
+2. Open the project folder in your code editor (if you have one) or use a plain text editor.
+
+3. Ensure you have an internet connection, as the application relies on real-time data from a public API.
 
 ### Running the Application
 
@@ -17,8 +35,8 @@ This web application allows you to track the current Bitcoin price, view histori
 
 4. To get the current Bitcoin price, follow these steps:
 
-   - Select your desired currency (EUR or USD) from the dropdown and it will automaticly get the curren price.
-   - Click the "Fetch Price" button if you want to update it manually.
+   - Select your desired currency (EUR or USD) from the dropdown.
+   - Click the "Fetch Price" button.
 
 5. To change the currency and refresh the data:
 
@@ -27,4 +45,8 @@ This web application allows you to track the current Bitcoin price, view histori
 
 6. The application will automatically refresh the data every 1 minute, updating the current price, averages, and chart.
 
+## Built With
 
+- HTML, CSS, and JavaScript for the front-end.
+- ApexCharts for data visualization.
+- Public Coinbase API for Bitcoin price data.
